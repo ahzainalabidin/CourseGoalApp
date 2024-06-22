@@ -63,8 +63,9 @@ const styles = StyleSheet.create({
     textInput: {
         borderWidth: 1,
         borderColor: '#cccccc',
+        borderRadius: 6,
         width: '100%',
-        padding: 8
+        padding: 16
     },
     buttonContainer: {
         flexDirection: 'row',
