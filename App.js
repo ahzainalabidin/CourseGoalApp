@@ -34,7 +34,7 @@ export default function App() {
         onPress={popupAddGoalHandler}
       />
 
-      {isModalVisible && <GoalInput onAddGoal={addGoalHandler} />}
+      {isModalVisible && <GoalInput onAddGoal={addGoalHandler} showModal={isModalVisible} />}
 
       <View style={styles.goalsContainer}>
         <FlatList data={courseGoals} renderItem={(itemData) => {
